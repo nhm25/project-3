@@ -1,0 +1,316 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Patrick Hand", cursive;
+    margin: 0;
+}
+
+.division {
+    padding: 35px;
+}
+
+#navigation {
+    position: fixed;
+    top: 0;
+    background-color: rgb(49, 49, 49);
+    float: left;
+    width: 100%;
+    display: block;
+    z-index: 1;
+}
+
+#navigation-bar {
+    position: relative;
+    float: left;
+    left: 50%;
+}
+
+#navigation-bar ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    right: 50%;
+}
+
+#navigation-bar ul li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+}
+
+#navigation-bar ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #fff;
+    line-height: normal;
+}
+
+#navigation-bar ul li a:hover {
+    background-color: #000;
+}
+
+#onpage {
+    background-color: aqua;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+/*resume section start*/
+.index {
+    background-image: url("../media/backgrounds/tactile.png");
+    color: rgb(226, 226, 226);
+}
+
+.index h2 {
+    text-align: center;
+    text-decoration-line: overline;
+    color: #fff;
+}
+
+.index p {
+    text-align: center;
+}
+
+.index li {
+    display: block;
+    overflow: auto;
+    list-style-type: none;
+    text-align: center;
+    line-height: 27px;
+}
+/*resume section end*/
+
+/*mtg section start*/
+.mtg {
+    background-image: url("../media/backgrounds/red\ sky.jpg");
+    color: rgb(226, 226, 226);
+}
+
+#intro {
+    text-align: center;
+}
+
+#intro-desc {
+    margin: auto;
+    width: 815px;
+    border: 4px solid rgb(226, 226, 226);
+    padding: 10px;
+    text-align: justify;
+}
+
+.mtg img {
+    margin: auto;
+    padding: 10px;
+    border-radius: 150px;
+}
+
+.mtg h1 {
+    text-shadow: 1px 1px 2px red;
+}
+
+.mtg h2 {
+    text-shadow: 1px 1px 2px black;
+}
+
+.white {
+    display: block;
+    position: absolute;
+    left: 682px;
+    width: 500px;
+    top: 310px;
+    text-align: center;
+    color: #fffbd6;
+}
+
+.white ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.white img {
+    border: 4px solid #fffbd6;
+}
+
+.blue {
+    display: block;
+    position: absolute;
+    right: 50px;
+    width: 500px;
+    top: 725px;
+    text-align: center;
+    color: #abe1fa;
+}
+
+.blue ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.blue img {
+    border: 4px solid #abe1fa;
+}
+
+.black {
+    display: block;
+    position: absolute;
+    right: 355px;
+    width: 500px;
+    top: 1270px;
+    text-align: center;
+    color: #ccc3c0;
+}
+
+.black ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.black img {
+    border: 4px solid #ccc3c0;
+}
+
+.red {
+    display: block;
+    position: absolute;
+    left: 355px;
+    width: 500px;
+    top: 1270px;
+    text-align: center;
+    color: #f9ac90;
+}
+
+.red ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.red img {
+    border: 4px solid #f9ac90;
+}
+
+.green {
+    display: block;
+    position: absolute;
+    left: 50px;
+    width: 500px;
+    top: 725px;
+    text-align: center;
+    color: #9cd4af;
+}
+
+.green ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.green img {
+    border: 4px solid #9cd4af;
+}
+
+.trivia {
+    display: block;
+    position: absolute;
+    top: 1850px;
+}
+
+.trivia img {
+    border-radius: 0px;
+    height: 400px;
+}
+/*mtg section end*/
+
+/*fortnite section start*/
+.fortnite {
+    background-image: url("../media/backgrounds/triangles.jpg");
+}
+
+.fortnite h1 {
+    text-shadow: 0.063em 0.063em 0.13em black;
+}
+
+.fortnite h2 {
+    text-shadow: 0.063em 0.063em 0.13em white;
+}
+
+#disclaimer {
+    text-decoration-line: overline;
+    text-decoration-color: black;
+    text-decoration: wavy;
+    text-shadow: 0.063em 0.063em 0.13em red;
+}
+
+.demogorgon {
+    padding: 2%;
+}
+
+.demogorgon img {
+    float: left;
+    height: 50em;
+}
+
+.demogorgon p {
+    position: absolute;
+    right: 5em;
+    top: 18em;
+    text-align: justify;
+    width: 50%;
+}
+
+.demogorgon h2 {
+    position: absolute;
+    right: 33.5em;
+    top: 10em;
+}
+
+.lava {
+    position: relative;
+    float: right;
+    padding: 2%;
+    width: 95%;
+}
+
+.lava p {
+    position: absolute;
+    float: left;
+    top: 10.5%;
+    left: 13%;
+    width: 45%;
+    text-align: justify;
+}
+
+.lava h2 {
+    position: absolute;
+    top: 5%;
+    left: 13%;
+}
+
+.lava img {
+    float: right;
+    width: 43em;
+}
+
+.skull {
+    display: block;
+    margin: auto;
+    padding: 2%;
+}
+
+.skull h2 {
+    position: relative;
+    float: right;
+    right: 33.5%
+}
+
+.skull p {
+    position: relative;
+    float: right;
+    text-align: justify;
+    width: 40%;
+    right: 5.55em;
+    top: -45em;
+}
+/*fortnite section end*/
