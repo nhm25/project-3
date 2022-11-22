@@ -4,12 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Map</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
   <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" hred="styles/style.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
+  <script src="js/map.js"></script>
 </head>
 
-<body class="map">
+<body class="gmap">
   <header>
     <nav id="navigation">
       <div id="navigation-bar">
@@ -22,6 +25,10 @@
       </div>
     </nav>
   </header>
+
+  <div id="map"></div>
+  <div id="legend"><h3>Legend</h3></div>
+
 </body>
 
 </html>
