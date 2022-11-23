@@ -8,7 +8,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
-  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXyQh5ZL7GKXbGQX2zjBfZN98dRUfHyxo&callback=initMap"></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXyQh5ZL7GKXbGQX2zjBfZN98dRUfHyxo&callback=initMap"></script>
   <script src="js/map.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -30,31 +31,25 @@
     </nav>
   </header>
 
+  <div id="map"></div>
+  <div id="legend">
+    <h3>Legend</h3>
+  </div>
 
-  <section>
-    <div id="map"></div>
-    <div id="legend">
-      <h3>Legend</h3>
+  <div class="slider">
+    <div>
+      <img src="media/shinjuku.png" title="Shinjuku" alt="Shinjuku">
     </div>
-  </section>
-
-
-  <section>
-    <div class="slider">
-      <div>
-        <img src="media/shinjuku.png" title="Shinjuku" alt="Shinjuku">
-      </div>
-      <div>
-        <img src="media/katsushika.jpg" title="Katsushika" alt="Katsushika">
-      </div>
-      <div>
-        <img src="media/yokohama.jpg" title="Yokohama" alt="Yokohama">
-      </div>
-      <div>
-        <img src="media/sagamihara.jpg" title="Sagamihara" alt="Sagamihara">
-      </div>
+    <div>
+      <img src="media/katsushika.jpg" title="Katsushika" alt="Katsushika">
     </div>
-  </section>
+    <div>
+      <img src="media/yokohama.jpg" title="Yokohama" alt="Yokohama">
+    </div>
+    <div>
+      <img src="media/sagamihara.jpg" title="Sagamihara" alt="Sagamihara">
+    </div>
+  </div>
 </body>
 
 </html>
