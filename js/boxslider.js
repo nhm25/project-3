@@ -6,5 +6,6 @@ $(document).ready(function(){
     pager: true,
     slideWidth: 800,
     wrapperClass: 'bx-wrapper',
+    captions: true
   });
 });
